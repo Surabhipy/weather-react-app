@@ -1,3 +1,7 @@
+# Weather React App
+
+Hi! I am Surabhi Pandey. I am a graduate student, majoring in UX/UI Design and Development. I have build this weather react app.  this project as part of my curriculum for web and mobile development class in NYIT, New York. This app will show weather by cities.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
