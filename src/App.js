@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Heading from './components/Heading';
 import Body from './components/Body';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+     <Container>
+      <Row>
+        <Col>
         <Heading />
         <Body />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

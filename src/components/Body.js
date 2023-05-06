@@ -1,11 +1,20 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 const Body = () => {
     return (
-        <div>
-        <p>Lorem ipsum dolor sit amet. Id voluptatem deleniti aut ullam laborum ut odio architecto non odio asperiores qui dolorum nostrum id numquam animi ut fugiat veritatis. Ut voluptas modi qui reprehenderit dolores cum officiis voluptatem est officiis quia in animi quaerat sed aspernatur sint. Sed sint dolores ea ratione voluptate hic sapiente obcaecati qui quod autem ut magnam sunt est placeat nesciunt.</p>
-        <p>Lorem ipsum dolor sit amet. Id voluptatem deleniti aut ullam laborum ut odio architecto non odio asperiores qui dolorum nostrum id numquam animi ut fugiat veritatis. Ut voluptas modi qui reprehenderit dolores cum officiis voluptatem est officiis quia in animi quaerat sed aspernatur sint. Sed sint dolores ea ratione voluptate hic sapiente obcaecati qui quod autem ut magnam sunt est placeat nesciunt.</p>
-        </div>
+        <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
     )
 }
 
