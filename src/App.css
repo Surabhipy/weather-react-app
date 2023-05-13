@@ -1,3 +1,26 @@
+body{
+  background-image: url(../public/1_GsImz-edoeuqCMfKxDus0w.jpg);
+  
+}
+
+h1{
+  color:white;
+  font-size: 88px;
+  
+}
+.card-background {
+background-color: #9ce0fb;
+}
+.cardCity-Title{
+  font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.forecast-backgroundColor{
+  background-color:rgb(209, 239, 253);
+}
+
 .App {
   text-align: center;
 }
