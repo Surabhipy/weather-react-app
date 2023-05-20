@@ -8,16 +8,16 @@ const CurrentWeather = ({ city, temperature, description }) => {
   // Determine which icon to display based on weather description
   switch (description) {
     case 'Clouds':
-      weatherIcon = <WiCloud />;
+      weatherIcon = <WiCloud className='weather-svg'/>;
       break;
     case 'clear sky':
-      weatherIcon = <WiDaySunny />;
+      weatherIcon = <WiDaySunny className='weather-svg' />;
       break;
     case 'Rain':
-      weatherIcon = <WiRain />;
+      weatherIcon = <WiRain className='weather-svg' />;
       break;
     case 'Snow':
-      weatherIcon = <WiSnow />;
+      weatherIcon = <WiSnow className='weather-svg'/>;
       break;
     default:
       weatherIcon = null;
@@ -26,12 +26,12 @@ const CurrentWeather = ({ city, temperature, description }) => {
 
   return (
     <div>
-      <h2>Current Weather</h2>
-      <Card>
+      <h2 className='h2'>Current Weather</h2>
+      <Card> 
         <Card.Body className="card-background">
           <Card.Title className='cardCity-Title'>{city}</Card.Title>
-          <Card.Text>{temperature}°F</Card.Text>
-          <Card.Text>
+          <Card.Text className='card-temperature'>{temperature}°F</Card.Text>
+          <Card.Text className='weather-icon'>
             {weatherIcon && (
               <span style={{ marginLeft: '5px' }}>{weatherIcon}</span>
             )}

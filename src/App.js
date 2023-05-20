@@ -50,7 +50,7 @@ const WeatherApp = () => {
   return (
     <Container>
       <Row className="justify-content-center mt-5">
-        <Col md={6}>
+        <Col>
           <h1 className="text-center">Weather App</h1>
           <CityInput onCitySubmit={handleCitySubmit} />
           {weatherData && weatherData.main && (

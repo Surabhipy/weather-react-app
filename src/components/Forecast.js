@@ -21,8 +21,8 @@ const Forecast = ({ forecastData }) => {
             <Card className="mb-4">
               <Card.Body className="forecast-backgroundColor">
                 <Card.Title className='forecast-textDesign'>{getDayName(index)}</Card.Title>
-                <Card.Text>Temperature: {data.temperature}°F</Card.Text>
-                <Card.Text>Overcast: {data.description}</Card.Text>
+                <Card.Text className='forecast-temperature'>Temperature: {data.temperature}°F</Card.Text>
+                <Card.Text className='forecast-description'>Overcast: {data.description}</Card.Text>
               </Card.Body>
             </Card>
           </Col>

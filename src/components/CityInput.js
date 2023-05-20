@@ -13,7 +13,7 @@ const CityInput = ({ onCitySubmit }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group>
-        <Form.Label>City</Form.Label>
+        <Form.Label className='city-heading'>City</Form.Label>
         <div className="input-group">
           <Form.Control
             type="text"

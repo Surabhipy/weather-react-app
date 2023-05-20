@@ -1,31 +1,82 @@
 body{
-background-color: lightskyblue;
+background-color: rgb(7, 78, 122);
+}
+
+.city-heading{
+  color: white;
+  font-size: 20px;
 }
 
 h1{
-  color:midnightblue;
+  color:white;
   font-size: 88px;
-  
 }
+
+.h2{
+  color: white;
+  font-size: 16px;
+}
+
 .card-background {
-background-image: url(../public/images\ \(2\).jpeg);
+  background-color: #36505D;
+  border-radius: 15px;
+  text-align: center;
 }
-.cardCity-Title{
-  font-size: larger;
+
+.card-temperature{
+  color: khaki;
+  font-size: 24px;
+}
+.cardCity-Title .card-title{
+  font-size: 52px;
   font-family:Arial, Helvetica, sans-serif;
   font-style: normal;
   color:rgb(255, 255, 255);
 }
 
-.forecast-backgroundColor{
-  background-color:rgb(209, 239, 253);
-  background-image: url(../public/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg);
+.h5, h5 {
+  font-size: 52px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color:rgb(255, 255, 255);
+}
+
+.card{
+      --bs-card-bg: transparent !important;
+      --bs-card-border-color: transparent !important;
+}
+
+.weather-icon {
+  color: white;
+  font-size: 60px;
+}
+
+
+.forecast-backgroundColor {
+  border-radius: 15px;
+  background-color: #4B6E80;
+  height: 150px;
 }
 
 .forecast-textDesign{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 32px;
-  color:#282c34;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+  color:white;
+}
+
+.forecast-temperature{
+  color: khaki;
+}
+
+.forecast-description{
+  color: white;
+}
+
+.btn-primary {
+  --bs-btn-bg: #36505D !important;
+  --bs-btn-border-color: #36505D !important;
+  --bs-btn-hover-bg: #4B6E80 !important;
+  --bs-btn-hover-border-color: #4B6E80 !important;
 }
 
 .App {
